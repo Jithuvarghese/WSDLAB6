@@ -1,0 +1,38 @@
+
+    /* Custom Styles */
+    .wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+        background-color: #c8102e; /* Emirates red */
+    }
+    .footer {
+        background-color: #222;
+        color: #fff;
+    }
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 0.375rem;
+        padding: 0.5rem;
+        transition: border-color 0.3s ease;
+    }
+    .form-control.error {
+        border-color: red;
+        background-color: #f8d7da; /* Light red background */
+    }
+    .form-control.valid {
+        border-color: green;
+        background-color: #d4edda; /* Light green background */
+    }
+    .form-feedback {
+        font-size: 0.875em;
+        margin-top: 0.25rem;
+    }
+    .form-error {
+        color: red;
+    }
+    .form-valid {
+        color: green;
+    }
